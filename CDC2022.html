@@ -61,7 +61,7 @@ nav a.active {
 }
 
 #section2 {
-    background-image: url(https://deerfieldlibrary.org/wp-content/uploads/2018/08/Gray-X11-Gui-Gray-Solid-Color-Background-Wallpaper-5120x2880.png);
+    background-image: url(https://www.casadasmarcenarias.com.br/wp-content/uploads/sites/486/2019/10/MDF-GRAFEN-ARAUCO-COD-4420.jpg);
     background-size: cover;
      background-attachment: fixed;
     background-position: center;
@@ -69,7 +69,7 @@ nav a.active {
 }
 
 #section3 {
-     background-image: url(https://i.natgeofe.com/n/152750f8-01d5-44ca-a226-8b9f695921c4/10264469.jpg);
+     background-image: url(https://www.casadasmarcenarias.com.br/wp-content/uploads/sites/486/2019/10/MDF-GRAFEN-ARAUCO-COD-4420.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -77,12 +77,12 @@ nav a.active {
 }
 
 #section4 {
-    background-image: url(https://deerfieldlibrary.org/wp-content/uploads/2018/08/Gray-X11-Gui-Gray-Solid-Color-Background-Wallpaper-5120x2880.png);
+    background-image: url(https://www.casadasmarcenarias.com.br/wp-content/uploads/sites/486/2019/10/MDF-GRAFEN-ARAUCO-COD-4420.jpg);
     background-attachment: fixed;
 }
 
 #section5 {
-    background-image: url(https://deerfieldlibrary.org/wp-content/uploads/2018/08/Gray-X11-Gui-Gray-Solid-Color-Background-Wallpaper-5120x2880.png);
+    background-image: url(https://www.casadasmarcenarias.com.br/wp-content/uploads/sites/486/2019/10/MDF-GRAFEN-ARAUCO-COD-4420.jpg);
     background-size: cover;
 }
 
@@ -120,7 +120,7 @@ section {
 </section>
 <section id="section2">
  <h1>Introduction</h1>
- <p> Prompt: If any, what are some connections between the demographics and geographics of an individual or place and the degree of storm-related destruction that they are likely to encounter. </p>
+ <p>Prompt: If any, what are some connections between the demographics and geographics of an individual or place and the degree of storm-related destruction that they are likely to encounter. </p>
  <p>Tableau: Used for graph generation by importing the given .csv files</p>
  <p>Excel: Used for data manipulation such as rearranging YEAR_MONTH into 2 separate files for year and month </p>
  <p>Python: Used for performing statistical computations and evaluating possible correlations</p>
@@ -130,22 +130,54 @@ section {
   <h1>Sex Ratio: Are Males Significantly More Likely Fatality Victims? </h1>
  
 <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam perspiciatis ratione iusto autem, facere aspernatur eos eligendi illo voluptate itaque perferendis harum debitis rem earum. Recusandae, consequuntur repellendus mollitia maxime excepturi, deleniti autem, incidunt pariatur perspiciatis numquam, quidem praesentium at.
+    Step 1: Simulate the expected proportion of male victims given 279 people, assuming males are not more likely to be fatality victims (null hypothesis).
 </p>
-
+ <p>
+  Step 2: Define a function that uses the expected proportion to find the expected number of male fatality victims, given a sample of 279 people. Run that function many times (~10,000) to create a distribution of expected male victims. 
+ </p>
+ <p>
+  Step 3: Graph the distribution of the number of expected male victims, assuming a fair sex ratio. 
+ </p>
+ <p>
+  Step 4: Calculate P-value and interpret results.
+ </p>
+ <p>
+  P-Value is 0! We reject the null hypothesis and accept the alternative. This means the likelihood of the male victim rates being higher is very unlikely to be down to chance. It deviates from what we would expect by far too much. Therefore, males are significantly more likely to be storm fatality victims. 
+ </p>
+ 
+ 
 
 </section>
 <section id="section4">
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam perspiciatis ratione iusto autem, facere aspernatur eos eligendi illo voluptate itaque perferendis harum debitis rem earum. Recusandae, consequuntur repellendus mollitia maxime excepturi, deleniti autem, incidunt pariatur perspiciatis numquam, quidem praesentium at.
-</p>
+<h1>Storms Damage</h1>
+ <h2>Average Magnitude of Storm by State</h2>
+ <div class='tableauPlaceholder' id='viz1665290019029' style='position: relative'><noscript><a href='#'><img alt='Average Magnitude of Storm by State ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Av&#47;AverageMagnitudeofStormbyState&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AverageMagnitudeofStormbyState&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Av&#47;AverageMagnitudeofStormbyState&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665290019029');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+ 
+ <h2>Total Storms by State</h2>
+ <div class='tableauPlaceholder' id='viz1665290181451' style='position: relative'><noscript><a href='#'><img alt='Total Number of Storms ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalNumberofStorms&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TotalNumberofStorms&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalNumberofStorms&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665290181451');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+ 
+ <h2>Deaths Per Storm by State</h2>
+ <div class='tableauPlaceholder' id='viz1665290231891' style='position: relative'><noscript><a href='#'><img alt='Deaths Per Storm ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DeathsPerStorm&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DeathsPerStorm&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DeathsPerStorm&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665290231891');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+ 
+ <h2>Harmful Storms Ranking by Death</h2>
+ <p>The most harmful event type by death is Heat.</p>
+ <div class='tableauPlaceholder' id='viz1665291777019' style='position: relative'><noscript><a href='#'><img alt='Harmful Storms Ranking by Death ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ha&#47;HarmfulStormsRankingbyDeath&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HarmfulStormsRankingbyDeath&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ha&#47;HarmfulStormsRankingbyDeath&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665291777019');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+ 
+ <h2>Harmful Storms Ranking by Injuries</h2>
+ <p>The most harmful event type by injuries is Tornado.</p>
+ <div class='tableauPlaceholder' id='viz1665291841872' style='position: relative'><noscript><a href='#'><img alt='Harmful Storms Ranking by Injuries ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ha&#47;HarmfulStormsRankingbyInjuries&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HarmfulStormsRankingbyInjuries&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ha&#47;HarmfulStormsRankingbyInjuries&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665291841872');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+ 
+ <h2>Total Property Damage by State</h2>
+<div class='tableauPlaceholder' id='viz1665291967952' style='position: relative'><noscript><a href='#'><img alt='Property Damage Map ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;storm_details&#47;PropertyDamageMap&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='storm_details&#47;PropertyDamageMap' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;storm_details&#47;PropertyDamageMap&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665291967952');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+ 
+
 
  </section>
 <section id="section5"> 
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam perspiciatis ratione iusto autem, facere aspernatur eos eligendi illo voluptate itaque perferendis harum debitis rem earum. Recusandae, consequuntur repellendus mollitia maxime excepturi, deleniti autem, incidunt pariatur perspiciatis numquam, quidem praesentium at.
-</p>
-
+ <h2>Damage Prediction</h2>
+ <h3>Does day of the month imply a higher variety of storm-related fatalities?</h3>
+ <div class='tableauPlaceholder' id='viz1665292311897' style='position: relative'><noscript><a href='#'><img alt='Day, Location ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;storm_fatalities_data&#47;DayLocation&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='storm_fatalities_data&#47;DayLocation' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;storm_fatalities_data&#47;DayLocation&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665292311897');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+ 
  
    </section>
 <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
