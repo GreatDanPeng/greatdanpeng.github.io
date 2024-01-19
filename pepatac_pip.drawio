@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T17:34:35.731Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="3A9soOVD5HeMIhBlByB6" version="22.1.21" type="github">
-  <diagram name="Page-1" id="niZyrlACnPR5dKASRHFE">
-    <mxGraphModel dx="661" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-01-19T20:41:52.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="GV8AIIM6xfsGgiI1g480" version="22.1.21" type="github" pages="2">
+  <diagram name="Week1-2 pepatac" id="niZyrlACnPR5dKASRHFE">
+    <mxGraphModel dx="1074" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,6 +109,193 @@
         </mxCell>
         <mxCell id="re4m7AlbJcbJd_wuQX2D-41" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot;&gt;Permission Denied&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="590" y="360" width="225" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0HTHMc5lC_MMBsmV3uLA" name="Week2-3 pepatac">
+    <mxGraphModel dx="1074" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9PQeG_32i608wcjbAgi5-1" value="Longleaf CLI 01/19" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-3" target="9PQeG_32i608wcjbAgi5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-3" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;code&gt;module load python/3.7.14&lt;/code&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-5" target="9PQeG_32i608wcjbAgi5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-5" target="9PQeG_32i608wcjbAgi5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-5" value="Reload the command lines of R packages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-6" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot;&gt;prompted update with some and then none&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-7" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot;&gt;No Error but the R lib wasn&#39;t installed (maybe it&#39;s already installed last time)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-9" target="9PQeG_32i608wcjbAgi5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-9" value="&lt;code style=&quot;text-align: start;&quot;&gt;source PEPATACenv.sh human&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-10" value="&lt;code style=&quot;text-align: start;&quot;&gt;Edit PEPATAC_config.yaml by using uninflammed/120 &amp;amp; 162 fastq.gz&lt;br&gt;&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-12" target="9PQeG_32i608wcjbAgi5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-12" value="&lt;code style=&quot;text-align: start;&quot;&gt;&lt;br&gt;looper run PEPATAC_config.yaml&lt;/code&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-14" target="9PQeG_32i608wcjbAgi5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-14" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot;&gt;Error: python version can&#39;t be 3.7.14 since the package is missing in 3.7.14&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-16" target="9PQeG_32i608wcjbAgi5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-16" value="scripts/createAnnotationCsv.pl /proj/fureylab/data/ATAC/human/&lt;br&gt;colon_tissue/CD_uninflamed/ 50 paired" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="580" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-17" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot;&gt;Permission Denied&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="660" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-18" value="&lt;code style=&quot;text-align: start;&quot;&gt;library(BiocManager)&lt;br&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="185" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-20" target="9PQeG_32i608wcjbAgi5-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-20" value="&lt;span style=&quot;text-align: start;&quot;&gt;Installation paths not writeable, unable to update packages&lt;/span&gt;&lt;br&gt;&lt;code style=&quot;text-align: start;&quot;&gt;&lt;div&gt;path:/nas/longleaf/rhel8/apps/r/4.2.1/lib64/R/library&lt;/div&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;perimeterSpacing=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="265" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-21" target="9PQeG_32i608wcjbAgi5-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-21" value="Error?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.075;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-18" target="9PQeG_32i608wcjbAgi5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-24" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="235" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-27" target="9PQeG_32i608wcjbAgi5-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-27" value="&lt;code style=&quot;text-align: start;&quot;&gt;BiocManager::install(&quot;GenomicDistributions&quot;)&lt;br&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="345" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-29" value="Error?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="255" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-29" target="9PQeG_32i608wcjbAgi5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-32" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="250" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-35" value="chmod 775 /nas/longleaf/rhel8/apps/r/4.2.1/lib64/R/library" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="340" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-36" target="9PQeG_32i608wcjbAgi5-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-36" value="changing permissions of &#39;/nas/longleaf/rhel8/apps/r/4.2.1/lib64/R/library&#39;: Operation not permitted" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="420" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-39" target="9PQeG_32i608wcjbAgi5-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="540" />
+              <mxPoint x="750" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-39" target="9PQeG_32i608wcjbAgi5-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-39" target="9PQeG_32i608wcjbAgi5-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-39" value="skip?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-42" value="yes 1st time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="508" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-43" target="9PQeG_32i608wcjbAgi5-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-43" value="&lt;code style=&quot;text-align: start;&quot;&gt;BiocManager::install(&quot;GenomicDistributionsData&quot;)&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="355" width="385" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="450" />
+              <mxPoint x="780" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-44" value="Error?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-46" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="418" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-48" target="9PQeG_32i608wcjbAgi5-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-48" value="&lt;code style=&quot;text-align: start;&quot;&gt;BiocManager::install(&quot;ChIPseeker&quot;)&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="570" width="425" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-50" value="yes 2nd time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="570" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-55" target="9PQeG_32i608wcjbAgi5-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-55" value="&lt;code style=&quot;text-align: start;&quot;&gt;devtools::install_github(&quot;databio/pepatac&quot;, subdir=&quot;PEPATACr&quot;)&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="660" width="425" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-56" value="yes 3rd time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="650" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PQeG_32i608wcjbAgi5-57" target="9PQeG_32i608wcjbAgi5-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-57" value="update?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-60" value="3:None" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="748" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PQeG_32i608wcjbAgi5-61" value="Installing 3 packages: stringi, vctrs, GenomicDistributionsData&lt;br&gt;package or namespace load failed for &#39;GenomicDistributionsData&#39;:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="705" y="750" width="405" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
